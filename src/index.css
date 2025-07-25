@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url('../public//fonts/Vazirmatn-FD-Regular.ttf');
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Vazirmatn';
+}
+
+a {
+  text-decoration: none;
+}
