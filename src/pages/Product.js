@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { Link, useParams, useNavigate } from 'react-router-dom'
 import { Row, Col, ListGroup, Image, Button } from 'react-bootstrap'
@@ -28,7 +28,7 @@ const Product = () => {
     // }
 
     // sendRequest()
-  }, [dispatch, id])
+  }, [dispatch, id]) 
 
   // useEffect(() => {
   //   const sendRequest = async () => {
@@ -36,7 +36,7 @@ const Product = () => {
   //     const responseData = await response.json()
   //     setProduct(responseData)
   //   }
-  //
+  
   //   sendRequest()
   // }, [id])
 
